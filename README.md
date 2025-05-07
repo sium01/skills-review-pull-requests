@@ -2,57 +2,67 @@
 
 <!--
   <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
+  Add a 1280×640 social preview image, set the repository as a template,
+  enable "Automatically delete head branches" in repo settings, and include an open source license (preferably MIT).
 -->
 
 # Review pull requests
 
-_Collaborate and work together on GitHub._
+_Collaborate efficiently and improve your code by reviewing pull requests on GitHub._
 
 </header>
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+## 🧭 Course Overview
 
-## Step 1: Open a pull request
+This course will guide you through creating and reviewing pull requests — one of the core collaboration features on GitHub. You'll learn how to propose changes, give and receive feedback, and merge contributions into the main project.
 
-_Welcome to "Review pull requests"! :wave:_
+---
 
-Let's get started by opening a pull request.
+## ✅ Step 1: Open a Pull Request
 
-**What is a pull request?**: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request is going to keep the changes you just made on your branch and propose applying them to the `main` branch.
+👋 _Welcome to "Review pull requests"!_
 
-### :keyboard: Activity: Create a pull request
+We’ll begin by opening a pull request (PR). PRs are how developers collaborate. When you make changes in a branch, you open a PR to propose those changes to be merged into the `main` branch.
 
-1. Click on the **Pull requests** tab in your repository.
-2. Click **New pull request**.
-3. In the **base:** dropdown, make sure **main** is selected.
-4. Select the **compare:** dropdown, and click `update-game`.
+📘 _Want to know more?_  
+Learn about [pull requests on GitHub Docs](https://docs.github.com/en/pull-requests).
+
+---
+
+### 📝 Activity: Create a Pull Request
+
+Follow these steps to create a pull request from your feature branch:
+
+1. Click the **Pull requests** tab in your repository.
+2. Select **New pull request**.
+3. Under the **base** dropdown, ensure it's set to `main`.
+4. Under **compare**, choose the branch you’ve been working on, e.g., `update-game`.
 5. Click **Create pull request**.
-6. Enter a title for your pull request: `Update the game over message`.
-7. Enter a description for your pull request: `Update the game over message so people know how to play again!`
+6. Add a title:  
+   `Update the game over message`
+7. Add a description:  
+   `Improved the game over message to provide clearer replay instructions.`
 8. Click **Create pull request**.
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+✅ After creating the PR, wait around 20 seconds, then refresh this page to see the next step. [GitHub Actions](https://docs.github.com/en/actions) will take care of progressing your course.
+
+---
 
 <footer>
 
 <!--
   <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
+  Include support links, code of conduct, license, and status page.
 -->
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/review-pull-requests) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Need help?  
+💬 [Post a question on the discussion board](https://github.com/orgs/skills/discussions/categories/review-pull-requests)  
+📊 [Check GitHub system status](https://www.githubstatus.com/)  
 
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub  
+🔹 [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)  
+🔹 [MIT License](https://gh.io/mit)
 
 </footer>
